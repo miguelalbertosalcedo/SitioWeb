@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font:bold;
+    font-size: 20px;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, arial, sans-serif;
+    text-shadow: 7px 4px 5px blue;
+}
+
+body {
+   text-align: center;
+   background-image: url(imagenes/5192479.jpg);
+
+}
+
+#cuerpo {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    background: #7373e9;
+    border:1px solid hsla(0, 5%, 78%, 0.898);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    clip-path: circle(35%);
+    width: 400px;
+    transition: .3s;
+}
+
+.logo:hover{
+    clip-path: circle(38%);
+    scale: 1.02;
+}
+
+
+#menu {
+    background: hsl(0, 4%, 71%);
+    padding: 5px 15px;
+
+}
+
+.nav-enlace{
+    text-align: center;
+    width: 70px;
+    margin: 10px;
+    display:inline-block;
+    background: #5c1feb;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    text-decoration: none;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px; 
+    border-radius: 20px;
+    -moz-box-shadow:#070606 5px 5px;
+    -webkit-box-shadow: #141111 5px 5px;
+    box-shadow: #0f0e0e 5px 5px;
+}
+
+.nav-enlace:hover {
+    background: rgb(14, 3, 112);
+
+}
+
+#seccion{
+    float:left;
+    width: 660px;
+    margin: 20px;
+    background: #7373e9; 
+}
+
+.articulo{
+    background: hsla(54, 92%, 64%, 0.8);
+    border: 1px solid hsl(0, 1%, 24%);
+    padding: 20px;
+    margin-bottom: 15px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px; 
+    border-radius: 20px;
+    -moz-box-shadow:#d42121 5px 5px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+    box-shadow: rgb(82, 80, 80) 5px 5px; 
+}
+p{
+    color: hsl(110, 88%, 36%);
+    background-color: aliceblue;
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: underline;
+    
+
+}
+
+span.sub {
+    vertical-align:sub;
+}
+
+.parrafo1{
+    color:aqua;
+    background-color: #999999;
+    font-size: 15px;
+
+}
+
+#lateral{
+    float:left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #cccccc;
+}
+
+table {
+    text-shadow: #369 2px 2px 2px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 1px;
+}
+
+#pie {
+    
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #999999;
+}
+
+/* fgfggfggfggggfgg */
