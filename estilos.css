@@ -4,20 +4,27 @@
 }
 
 h1 {
+    
+    text-align: center;
     font:bold;
-    font-size: 20px;
-    font-family: Verdana, arial, Tahoma, sans-serif;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: hwb(120 7% 6%);
+    
+    
+    
+    
 }
 
 h2 {
     font: bold 14px verdana, arial, sans-serif;
-    text-shadow: 7px 4px 5px blue;
+    text-shadow: 7px 4px 5px hsl(240, 69%, 61%);
 }
 
 body {
    text-align: center;
-   background-image: url(imagenes/5192479.jpg);
-
+   background-image: url(imagenes/fondo-degradado-ordenador-portatil-visto-arriba_52683-6291.avif);
+   
 }
 
 #cuerpo {
@@ -27,7 +34,7 @@ body {
 }
 
 #cabecera {
-    background: #7373e9;
+    background: hwb(240 52% 20% / 0);
     border:1px solid hsla(0, 5%, 78%, 0.898);
     padding: 20px;
     text-align: center;
@@ -37,6 +44,7 @@ body {
     clip-path: circle(35%);
     width: 400px;
     transition: .3s;
+    
 }
 
 .logo:hover{
@@ -47,16 +55,18 @@ body {
 
 #menu {
     background: hsl(0, 4%, 71%);
-    padding: 5px 15px;
+    padding: 5px 100px;
+    font-size: medium
+    
 
 }
 
 .nav-enlace{
     text-align: center;
-    width: 70px;
+    width: 100px;
     margin: 10px;
     display:inline-block;
-    background: #5c1feb;
+    background: #1506e4;
     color: blanchedalmond;
     padding: 10px 30px;
     text-decoration: none;
@@ -69,7 +79,8 @@ body {
 }
 
 .nav-enlace:hover {
-    background: rgb(14, 3, 112);
+    background: #2b07ac;
+    
 
 }
 
@@ -78,30 +89,45 @@ body {
     width: 660px;
     margin: 20px;
     background: #7373e9; 
+    
 }
 
 .articulo{
-    background: hsla(54, 92%, 64%, 0.8);
-    border: 1px solid hsl(0, 1%, 24%);
-    padding: 20px;
-    margin-bottom: 15px;
+    
+    background: hwb(276 4% 58% / 0.8);
+    border: 5px solid hsl(0, 50%, 4%);
+    padding: 10px;
+    margin-bottom: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px; 
     border-radius: 20px;
     -moz-box-shadow:#d42121 5px 5px;
     -webkit-box-shadow: rgb(150,150,150) 5px 5px;
     box-shadow: rgb(82, 80, 80) 5px 5px; 
+    
+    
 }
 p{
-    color: hsl(110, 88%, 36%);
-    background-color: aliceblue;
-    line-height: 1.5;
+    color: hsl(105, 25%, 3%);
+    background-color: #fcfdfd;
+    line-height: 1;
     font-weight: bold;
     font-style: italic;
-    text-align: justify;
-    text-decoration: underline;
+    text-align: center;
+    text-decoration: dashed;
     
 
+}
+
+p{
+    color: hwb(60 4% 96%);
+    background-color: #fcfdfd;
+    line-height: 1;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: dashed;
+     
 }
 
 span.sub {
@@ -109,10 +135,15 @@ span.sub {
 }
 
 .parrafo1{
-    color:aqua;
-    background-color: #999999;
+    color:hwb(120 4% 95%);
+    background-color: hwb(0 95% 3%);
     font-size: 15px;
-
+    line-height: 1;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: dashed;
+    
 }
 
 #lateral{
@@ -120,14 +151,33 @@ span.sub {
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background: #cccccc;
+    background: chartreuse;
+    
 }
 
 table {
-    text-shadow: #369 2px 2px 2px;
-    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: #369;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     border-radius: 1px;
+    
+    
+    }
+
+table {
+    
+    margin: 15px;
+    text-shadow: rgb(204, 211, 207) 2px 2px 2px;
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 30px;
+    border-radius: 10px; 
+    text-align: center;
+     
+    
+
+    
+      
+    
 }
 
 #pie {
